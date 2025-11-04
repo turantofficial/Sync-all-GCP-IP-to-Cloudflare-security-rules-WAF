@@ -19,11 +19,11 @@ Cloudflare Sync Token see Passwork “Cloudflare Google Cloud IP Sync Security R
 - Use / Add environemnt variables in Cloud Run see main.py
 
 You should / can use API Keys as secrets. e.g add in environment variable 
-- cf_secret_name = cf_api_token
-- function_target = main
-- office_ip = 10.10.10.10
-- gcp_project = projectA
-- cf_zone_id = ...
-- cf_ruleset_id = ...
-- cf_rule_id = ..
+- CF_SECRET_NAME = CF_API_TOKEN
+- FUNCTION_TARGET = main
+- OFFICE_IP = 10.10.10.10
+- GCP_PROJECT = projectA
+- CF_ZONE_ID = ...
+- CF_RULESET_ID = ...
+- CF_RULE_ID = ..
 
